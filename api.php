@@ -23,7 +23,10 @@ $API=array();$API['urls']=array();
 *
 */
 $API['KEY']='{YOUR KEY API}';     //KEY API.
-$API['urls']['STOCK']='http://joumma.com/shop/api/{YOUR KEY API}/productos.php?jsa=1&api={YOUR KEY API}';        //URL DE LA SINCRONIZACION DE STOCK.
+//Old Version <2019
+//$API['urls']['STOCK']='http://joumma.com/shop/api/{YOUR KEY API}/productos.php?jsa=1&api={YOUR KEY API}';
+//New Version 2019
+$API['urls']['STOCK']='http://api.joumma.com:8080/?keyapi={YOUR KEY API}';        //URL DE LA SINCRONIZACION DE STOCK.
 
 // ------------------------- FIN : DATOS DE ACCESO. --------------------------------
 
