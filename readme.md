@@ -18,8 +18,8 @@ Imprescindible KEYAPI de joumma
 Descarga el git y dentro esta el jpresent.zip que es el modulo para prestashop.
 
 * Descromprimir el git
-* Recoger el jpresent.zip
-* Instalar jpresent.zip en prestashop
+* Recoger el joummabags.zip
+* Instalar joummabags.zip en prestashop
 
 ### Funciones
 * Actualizacion de stock
