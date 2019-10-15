@@ -1,3 +1,5 @@
+![alt text](https://joumma.com/shop/image/catalog/logo.png)
+
 # API Sync > Joumma
 Sincronizacion de productos con JoummaBags
 
