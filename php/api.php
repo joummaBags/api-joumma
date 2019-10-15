@@ -138,9 +138,7 @@ for($i=0;$i>=0;$i++){
 
             if($pasador==true){
 
-                $sql='SELECT * FROM '.$db->prefix.'product WHERE reference="'.$JSON_DECODIFICADO[$ii]->id_producto.'"';
-                $resultado = $db->_db_consulta($sql);
-                $db->_db_consulta('INSERT INTO '.$db->prefix.' (id_warehouse,id_product,id_product_attribute,reference,ean13,physical_quantity,usable_quantity,price_te) VALUES ("'.$id_del_almacen.'","'.$Referencia1.'","'.$Referencia2.'","'.$JSON_DECODIFICADO[$ii]->id_producto.'","","'.$JSON_DECODIFICADO[$ii]->cantidad.'","'.$JSON_DECODIFICADO[$ii]->cantidad.'","")');
+                $db->_db_consulta('INSERT INTO '.$db->prefix.'stock (id_warehouse,id_product,id_product_attribute,reference,ean13,physical_quantity,usable_quantity,price_te) VALUES ("'.$id_del_almacen.'","'.$Referencia1.'","'.$Referencia2.'","'.$JSON_DECODIFICADO[$ii]->id_producto.'","","'.$JSON_DECODIFICADO[$ii]->cantidad.'","'.$JSON_DECODIFICADO[$ii]->cantidad.'","")');
                 
                 imprimir('  * * CREADO...');
             }else{
