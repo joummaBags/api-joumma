@@ -1,7 +1,7 @@
 ![alt text](https://joumma.com/shop/image/catalog/logo.png)
 
-# API Sync > Joumma
-Sincronizacion de productos con JoummaBags
+# API
+Sincronizacion de productos con JoummaBags.
 
 ## PHP
 Conexion con la API por php, para db de prestashop v1.6.x.x .Con stock avanzado activado.
