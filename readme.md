@@ -9,7 +9,7 @@ Conexion con la API por php, para db de prestashop v1.6.x.x .Con stock avanzado 
 ## Prestashop
 Modulo para prestashop. v1.7.x.x .Sincronizacion de stock con y sin stock avanzado.
 <br />
-Imprescindible KEYAPI de joumma
+Imprescindible KEYAPI de joumma. [a link](https://joumma.com/)
 
 ### Version
 * v1.0.0
