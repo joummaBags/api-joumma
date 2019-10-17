@@ -11,6 +11,7 @@
             $this->version = '1.0.0';
             $this->author ='JosAlba';
             $this->need_instance = 0;
+            $this->bootstrap = true;
             $this->ps_versions_compliancy = array('min' => '1.6.x.x', 'max' => _PS_VERSION_);
 
             $config = Configuration::getMultiple ( array (
